@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ED3F69D30FFFC7DBE487639 /* libPods-NativeRNAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B8C6B3949E6ABA79DEC522 /* libPods-NativeRNAppTests.a */; };
+		629F1D701DEFC40D00DA4B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F1D6F1DEFC40D00DA4B66 /* main.m */; };
+		629F1D731DEFC40D00DA4B66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F1D721DEFC40D00DA4B66 /* AppDelegate.m */; };
+		629F1D761DEFC40D00DA4B66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F1D751DEFC40D00DA4B66 /* ViewController.m */; };
+		629F1D791DEFC40D00DA4B66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629F1D771DEFC40D00DA4B66 /* Main.storyboard */; };
+		629F1D7B1DEFC40D00DA4B66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629F1D7A1DEFC40D00DA4B66 /* Assets.xcassets */; };
+		629F1D7E1DEFC40D00DA4B66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629F1D7C1DEFC40D00DA4B66 /* LaunchScreen.storyboard */; };
+		629F1D891DEFC40D00DA4B66 /* NativeRNAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F1D881DEFC40D00DA4B66 /* NativeRNAppTests.m */; };
+		629F1D941DEFC40D00DA4B66 /* NativeRNAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F1D931DEFC40D00DA4B66 /* NativeRNAppUITests.m */; };
+		629F1DA31DEFC6AE00DA4B66 /* ReactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629F1DA21DEFC6AE00DA4B66 /* ReactViewController.m */; };
+		924B93CA5626C835E868B89D /* libPods-NativeRNAppUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1B1DD52C33BECB20447AD4 /* libPods-NativeRNAppUITests.a */; };
+		9475CED0D0E325CBA75F4148 /* libPods-NativeRNApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF0C712158A2AB75922A2FFD /* libPods-NativeRNApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		629F1D851DEFC40D00DA4B66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629F1D631DEFC40D00DA4B66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 629F1D6A1DEFC40D00DA4B66;
+			remoteInfo = NativeRNApp;
+		};
+		629F1D901DEFC40D00DA4B66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629F1D631DEFC40D00DA4B66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 629F1D6A1DEFC40D00DA4B66;
+			remoteInfo = NativeRNApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		240D94B8D85EC9070AF1C0A4 /* Pods-NativeRNAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeRNAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeRNAppTests/Pods-NativeRNAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		25B8C6B3949E6ABA79DEC522 /* libPods-NativeRNAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeRNAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D61CE5503B579E9BFE5AF7 /* Pods-NativeRNAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeRNAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeRNAppUITests/Pods-NativeRNAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		629F1D6B1DEFC40D00DA4B66 /* NativeRNApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NativeRNApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		629F1D6F1DEFC40D00DA4B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		629F1D711DEFC40D00DA4B66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		629F1D721DEFC40D00DA4B66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		629F1D741DEFC40D00DA4B66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		629F1D751DEFC40D00DA4B66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		629F1D781DEFC40D00DA4B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		629F1D7A1DEFC40D00DA4B66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		629F1D7D1DEFC40D00DA4B66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		629F1D7F1DEFC40D00DA4B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629F1D841DEFC40D00DA4B66 /* NativeRNAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeRNAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		629F1D881DEFC40D00DA4B66 /* NativeRNAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeRNAppTests.m; sourceTree = "<group>"; };
+		629F1D8A1DEFC40D00DA4B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629F1D8F1DEFC40D00DA4B66 /* NativeRNAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NativeRNAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		629F1D931DEFC40D00DA4B66 /* NativeRNAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeRNAppUITests.m; sourceTree = "<group>"; };
+		629F1D951DEFC40D00DA4B66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629F1DA11DEFC6AE00DA4B66 /* ReactViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactViewController.h; sourceTree = "<group>"; };
+		629F1DA21DEFC6AE00DA4B66 /* ReactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactViewController.m; sourceTree = "<group>"; };
+		8DFCAB30F7E027B9EA20B74A /* Pods-NativeRNAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeRNAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeRNAppUITests/Pods-NativeRNAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97C42A7EADA90547E5718140 /* Pods-NativeRNApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeRNApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeRNApp/Pods-NativeRNApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9B1B1DD52C33BECB20447AD4 /* libPods-NativeRNAppUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeRNAppUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99BA8CD02FFE8B3C32984AC /* Pods-NativeRNAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeRNAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NativeRNAppTests/Pods-NativeRNAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F1E36E44C38E4C1E6D22E1B2 /* Pods-NativeRNApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeRNApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-NativeRNApp/Pods-NativeRNApp.release.xcconfig"; sourceTree = "<group>"; };
+		FF0C712158A2AB75922A2FFD /* libPods-NativeRNApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeRNApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		629F1D681DEFC40D00DA4B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9475CED0D0E325CBA75F4148 /* libPods-NativeRNApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629F1D811DEFC40D00DA4B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED3F69D30FFFC7DBE487639 /* libPods-NativeRNAppTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629F1D8C1DEFC40D00DA4B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				924B93CA5626C835E868B89D /* libPods-NativeRNAppUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		350F39FD937D51E95D96E5FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C712158A2AB75922A2FFD /* libPods-NativeRNApp.a */,
+				25B8C6B3949E6ABA79DEC522 /* libPods-NativeRNAppTests.a */,
+				9B1B1DD52C33BECB20447AD4 /* libPods-NativeRNAppUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		629F1D621DEFC40D00DA4B66 = {
+			isa = PBXGroup;
+			children = (
+				629F1D6D1DEFC40D00DA4B66 /* NativeRNApp */,
+				629F1D871DEFC40D00DA4B66 /* NativeRNAppTests */,
+				629F1D921DEFC40D00DA4B66 /* NativeRNAppUITests */,
+				629F1D6C1DEFC40D00DA4B66 /* Products */,
+				8C664251BFD1BDEB57FB94C9 /* Pods */,
+				350F39FD937D51E95D96E5FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		629F1D6C1DEFC40D00DA4B66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				629F1D6B1DEFC40D00DA4B66 /* NativeRNApp.app */,
+				629F1D841DEFC40D00DA4B66 /* NativeRNAppTests.xctest */,
+				629F1D8F1DEFC40D00DA4B66 /* NativeRNAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		629F1D6D1DEFC40D00DA4B66 /* NativeRNApp */ = {
+			isa = PBXGroup;
+			children = (
+				629F1D711DEFC40D00DA4B66 /* AppDelegate.h */,
+				629F1D721DEFC40D00DA4B66 /* AppDelegate.m */,
+				629F1D741DEFC40D00DA4B66 /* ViewController.h */,
+				629F1D751DEFC40D00DA4B66 /* ViewController.m */,
+				629F1DA11DEFC6AE00DA4B66 /* ReactViewController.h */,
+				629F1DA21DEFC6AE00DA4B66 /* ReactViewController.m */,
+				629F1D771DEFC40D00DA4B66 /* Main.storyboard */,
+				629F1D7A1DEFC40D00DA4B66 /* Assets.xcassets */,
+				629F1D7C1DEFC40D00DA4B66 /* LaunchScreen.storyboard */,
+				629F1D7F1DEFC40D00DA4B66 /* Info.plist */,
+				629F1D6E1DEFC40D00DA4B66 /* Supporting Files */,
+			);
+			path = NativeRNApp;
+			sourceTree = "<group>";
+		};
+		629F1D6E1DEFC40D00DA4B66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				629F1D6F1DEFC40D00DA4B66 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		629F1D871DEFC40D00DA4B66 /* NativeRNAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				629F1D881DEFC40D00DA4B66 /* NativeRNAppTests.m */,
+				629F1D8A1DEFC40D00DA4B66 /* Info.plist */,
+			);
+			path = NativeRNAppTests;
+			sourceTree = "<group>";
+		};
+		629F1D921DEFC40D00DA4B66 /* NativeRNAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				629F1D931DEFC40D00DA4B66 /* NativeRNAppUITests.m */,
+				629F1D951DEFC40D00DA4B66 /* Info.plist */,
+			);
+			path = NativeRNAppUITests;
+			sourceTree = "<group>";
+		};
+		8C664251BFD1BDEB57FB94C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97C42A7EADA90547E5718140 /* Pods-NativeRNApp.debug.xcconfig */,
+				F1E36E44C38E4C1E6D22E1B2 /* Pods-NativeRNApp.release.xcconfig */,
+				E99BA8CD02FFE8B3C32984AC /* Pods-NativeRNAppTests.debug.xcconfig */,
+				240D94B8D85EC9070AF1C0A4 /* Pods-NativeRNAppTests.release.xcconfig */,
+				8DFCAB30F7E027B9EA20B74A /* Pods-NativeRNAppUITests.debug.xcconfig */,
+				41D61CE5503B579E9BFE5AF7 /* Pods-NativeRNAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		629F1D6A1DEFC40D00DA4B66 /* NativeRNApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629F1D981DEFC40D00DA4B66 /* Build configuration list for PBXNativeTarget "NativeRNApp" */;
+			buildPhases = (
+				CB3CE815E14AE52623524888 /* [CP] Check Pods Manifest.lock */,
+				629F1D671DEFC40D00DA4B66 /* Sources */,
+				629F1D681DEFC40D00DA4B66 /* Frameworks */,
+				629F1D691DEFC40D00DA4B66 /* Resources */,
+				4018628F0D1346FEE993A093 /* [CP] Embed Pods Frameworks */,
+				64D5AE66F2165A41762A41BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NativeRNApp;
+			productName = NativeRNApp;
+			productReference = 629F1D6B1DEFC40D00DA4B66 /* NativeRNApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		629F1D831DEFC40D00DA4B66 /* NativeRNAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629F1D9B1DEFC40D00DA4B66 /* Build configuration list for PBXNativeTarget "NativeRNAppTests" */;
+			buildPhases = (
+				50F5BF3BBC2118C123E7717C /* [CP] Check Pods Manifest.lock */,
+				629F1D801DEFC40D00DA4B66 /* Sources */,
+				629F1D811DEFC40D00DA4B66 /* Frameworks */,
+				629F1D821DEFC40D00DA4B66 /* Resources */,
+				6B4AB9D646E28B2352F547A8 /* [CP] Embed Pods Frameworks */,
+				05672E4F35AE0B8421F3F898 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629F1D861DEFC40D00DA4B66 /* PBXTargetDependency */,
+			);
+			name = NativeRNAppTests;
+			productName = NativeRNAppTests;
+			productReference = 629F1D841DEFC40D00DA4B66 /* NativeRNAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		629F1D8E1DEFC40D00DA4B66 /* NativeRNAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629F1D9E1DEFC40D00DA4B66 /* Build configuration list for PBXNativeTarget "NativeRNAppUITests" */;
+			buildPhases = (
+				336AB34122E6DE4ACFF6D7FF /* [CP] Check Pods Manifest.lock */,
+				629F1D8B1DEFC40D00DA4B66 /* Sources */,
+				629F1D8C1DEFC40D00DA4B66 /* Frameworks */,
+				629F1D8D1DEFC40D00DA4B66 /* Resources */,
+				6C7A3CE3954611845BEBCD95 /* [CP] Embed Pods Frameworks */,
+				38E27A78BE29B4032DB6B2F4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629F1D911DEFC40D00DA4B66 /* PBXTargetDependency */,
+			);
+			name = NativeRNAppUITests;
+			productName = NativeRNAppUITests;
+			productReference = 629F1D8F1DEFC40D00DA4B66 /* NativeRNAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629F1D631DEFC40D00DA4B66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "帶頭二哥 QQ:648959";
+				TargetAttributes = {
+					629F1D6A1DEFC40D00DA4B66 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P248AKQ8LP;
+						ProvisioningStyle = Automatic;
+					};
+					629F1D831DEFC40D00DA4B66 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P248AKQ8LP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 629F1D6A1DEFC40D00DA4B66;
+					};
+					629F1D8E1DEFC40D00DA4B66 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P248AKQ8LP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 629F1D6A1DEFC40D00DA4B66;
+					};
+				};
+			};
+			buildConfigurationList = 629F1D661DEFC40D00DA4B66 /* Build configuration list for PBXProject "NativeRNApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 629F1D621DEFC40D00DA4B66;
+			productRefGroup = 629F1D6C1DEFC40D00DA4B66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				629F1D6A1DEFC40D00DA4B66 /* NativeRNApp */,
+				629F1D831DEFC40D00DA4B66 /* NativeRNAppTests */,
+				629F1D8E1DEFC40D00DA4B66 /* NativeRNAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		629F1D691DEFC40D00DA4B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629F1D7E1DEFC40D00DA4B66 /* LaunchScreen.storyboard in Resources */,
+				629F1D7B1DEFC40D00DA4B66 /* Assets.xcassets in Resources */,
+				629F1D791DEFC40D00DA4B66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629F1D821DEFC40D00DA4B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629F1D8D1DEFC40D00DA4B66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05672E4F35AE0B8421F3F898 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeRNAppTests/Pods-NativeRNAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		336AB34122E6DE4ACFF6D7FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38E27A78BE29B4032DB6B2F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeRNAppUITests/Pods-NativeRNAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4018628F0D1346FEE993A093 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeRNApp/Pods-NativeRNApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50F5BF3BBC2118C123E7717C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		64D5AE66F2165A41762A41BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeRNApp/Pods-NativeRNApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B4AB9D646E28B2352F547A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeRNAppTests/Pods-NativeRNAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C7A3CE3954611845BEBCD95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NativeRNAppUITests/Pods-NativeRNAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB3CE815E14AE52623524888 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		629F1D671DEFC40D00DA4B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629F1D761DEFC40D00DA4B66 /* ViewController.m in Sources */,
+				629F1D731DEFC40D00DA4B66 /* AppDelegate.m in Sources */,
+				629F1DA31DEFC6AE00DA4B66 /* ReactViewController.m in Sources */,
+				629F1D701DEFC40D00DA4B66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629F1D801DEFC40D00DA4B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629F1D891DEFC40D00DA4B66 /* NativeRNAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629F1D8B1DEFC40D00DA4B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629F1D941DEFC40D00DA4B66 /* NativeRNAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		629F1D861DEFC40D00DA4B66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 629F1D6A1DEFC40D00DA4B66 /* NativeRNApp */;
+			targetProxy = 629F1D851DEFC40D00DA4B66 /* PBXContainerItemProxy */;
+		};
+		629F1D911DEFC40D00DA4B66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 629F1D6A1DEFC40D00DA4B66 /* NativeRNApp */;
+			targetProxy = 629F1D901DEFC40D00DA4B66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		629F1D771DEFC40D00DA4B66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629F1D781DEFC40D00DA4B66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		629F1D7C1DEFC40D00DA4B66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629F1D7D1DEFC40D00DA4B66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		629F1D961DEFC40D00DA4B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		629F1D971DEFC40D00DA4B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		629F1D991DEFC40D00DA4B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C42A7EADA90547E5718140 /* Pods-NativeRNApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P248AKQ8LP;
+				INFOPLIST_FILE = NativeRNApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lz.NativeRNApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		629F1D9A1DEFC40D00DA4B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E36E44C38E4C1E6D22E1B2 /* Pods-NativeRNApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P248AKQ8LP;
+				INFOPLIST_FILE = NativeRNApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lz.NativeRNApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		629F1D9C1DEFC40D00DA4B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99BA8CD02FFE8B3C32984AC /* Pods-NativeRNAppTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P248AKQ8LP;
+				INFOPLIST_FILE = NativeRNAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lz.NativeRNAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeRNApp.app/NativeRNApp";
+			};
+			name = Debug;
+		};
+		629F1D9D1DEFC40D00DA4B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 240D94B8D85EC9070AF1C0A4 /* Pods-NativeRNAppTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P248AKQ8LP;
+				INFOPLIST_FILE = NativeRNAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lz.NativeRNAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NativeRNApp.app/NativeRNApp";
+			};
+			name = Release;
+		};
+		629F1D9F1DEFC40D00DA4B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DFCAB30F7E027B9EA20B74A /* Pods-NativeRNAppUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P248AKQ8LP;
+				INFOPLIST_FILE = NativeRNAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lz.NativeRNAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NativeRNApp;
+			};
+			name = Debug;
+		};
+		629F1DA01DEFC40D00DA4B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D61CE5503B579E9BFE5AF7 /* Pods-NativeRNAppUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = P248AKQ8LP;
+				INFOPLIST_FILE = NativeRNAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lz.NativeRNAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NativeRNApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		629F1D661DEFC40D00DA4B66 /* Build configuration list for PBXProject "NativeRNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629F1D961DEFC40D00DA4B66 /* Debug */,
+				629F1D971DEFC40D00DA4B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629F1D981DEFC40D00DA4B66 /* Build configuration list for PBXNativeTarget "NativeRNApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629F1D991DEFC40D00DA4B66 /* Debug */,
+				629F1D9A1DEFC40D00DA4B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629F1D9B1DEFC40D00DA4B66 /* Build configuration list for PBXNativeTarget "NativeRNAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629F1D9C1DEFC40D00DA4B66 /* Debug */,
+				629F1D9D1DEFC40D00DA4B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629F1D9E1DEFC40D00DA4B66 /* Build configuration list for PBXNativeTarget "NativeRNAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629F1D9F1DEFC40D00DA4B66 /* Debug */,
+				629F1DA01DEFC40D00DA4B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629F1D631DEFC40D00DA4B66 /* Project object */;
+}
